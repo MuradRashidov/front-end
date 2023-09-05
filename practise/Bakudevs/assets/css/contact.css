@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #e3f1f2;
+}
+.nav {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+}
+.item1,
+.item2,
+.item3 {
+  flex-grow: 2;
+}
+.item4,
+.item5 {
+  flex-grow: 1;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+.item4 {
+  color: #008d96;
+  border: 1px solid #008d96;
+}
+.nav .logo {
+  width: 10vw;
+  height: 30px;
+}
+.nav .vektor {
+  width: 23px;
+  height: 16px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item2 {
+  color: #1b2221;
+}
+.item3 {
+  color: #008d96;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.item5 {
+  margin-left: 1%;
+  background-color: #008d96;
+  color: white;
+}
+.coursesBody {
+  padding: 25px;
+  background-color: #008d96;
+  text-align: center;
+  color: white;
+}
+
+.coursesBody h1 {
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.coursesBody p {
+  margin-top: 10px;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contactWays {
+  background-color: white;
+  padding: 100px 10% 100px;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.contactCard {
+  width: 271px;
+  height: 254px;
+  top: 374px;
+  left: 149px;
+  border-radius: 30px;
+  border: 1px;
+  background-color: #f4d2b8;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.iconBox {
+  width: 60px;
+  height: 60px;
+  top: 410px;
+  left: 255px;
+  border-radius: 14px;
+  background-color: #f5af15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone + p i {
+  color: #939393;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid;
+  text-align: center;
+  padding-top: 2px;
+}
+.phone + p {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.phone {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.iconBox {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #939393;
+}
+.message {
+  background-color: #e3f1f2;
+  padding: 30px 25% 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.messageHead {
+  text-align: center;
+}
+.messageHead h1 {
+  color: #1b2221;
+  height: 57px;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.messageHead p {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #939393;
+}
+.messageForm {
+  display: flex;
+  gap: 30px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+textarea {
+  padding: 20px;
+  width: 230px;
+  height: 192px;
+  resize: none;
+}
+.messageForm input {
+  color: #939393;
+  padding: 5px 10px;
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.sendButton{
+    width: 130px;
+    padding: 10px 25px;
+    background-color: #008D96;
+    color: white;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+::placeholder {
+  color: #939393;
+}
+.footerSection {
+  background-color: rgb(27, 104, 128);
+  width: 100%;
+  padding: 70px 15% 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 100px;
+}
+.logoContainer img {
+  width: 170px;
+  height: 28.84848403930664px;
+}
+.logoContainer {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.logoContainer > p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  gap: 10px;
+}
+.footer li {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.signUp {
+  width: 300px;
+}
+.signUp p {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.signUp p span {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.copyRight {
+  color: #fff;
+  padding: 10px 0;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
