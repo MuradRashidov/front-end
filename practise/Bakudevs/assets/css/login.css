@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #e3f1f2;
+}
+.nav {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+}
+.item1,
+.item2,
+.item3 {
+  flex-grow: 2;
+}
+.item4,
+.item5 {
+  flex-grow: 1;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+.item4 {
+  color: #008d96;
+  border: 1px solid #008d96;
+}
+.nav .logo {
+  width: 10vw;
+  height: 30px;
+}
+.nav .vektor {
+  width: 23px;
+  height: 16px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item2 {
+  color: #1b2221;
+}
+.item3 {
+  color: #008d96;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.item5 {
+  margin-left: 1%;
+  background-color: #008d96;
+  color: white;
+}
+
+.login {
+  background-color: whitesmoke;
+  padding: 30px 20% 70px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px -5px 5px rgba(145, 141, 141, 0.3);
+
+
+  gap: 20px;
+}
+.facebook,
+.google {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  border-radius: 8px;
+}
+.loginHead {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  color: #1B2221;
+}
+
+.facebookImg {
+  background-color: #395185;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px 0 0 8px;
+}
+.googleImg {
+  background-color: #e93e32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px 0 0 8px;
+}
+.facebookImg img,
+.googleImg img {
+  width: 25px;
+  height: 25px;
+}
+
+.loginBody {
+  width: 520px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 30px 40px 40px;
+}
+.label {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 419px;
+  height: 60px;
+  border-radius: 8px;
+  color: #1b2221;
+}
+.kmfp {
+  height: 19px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.keepMind {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.check {
+  height: 20px;
+  width: 20px;
+}
+.cb {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #939393;
+}
+.fogotPassword {
+  color: #1b2221;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.fogotPassword a {
+  text-decoration: none;
+  color: #1b2221;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #f6f6f7;
+}
+input::placeholder {
+  color: #939393;
+}
+.facebookInput input {
+  border: 0;
+  border-radius: 0 8px 8px 0;
+}
+.facebookInput {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f6f6f7;
+}
+.emailInput,.passInput{
+  border: 0;
+  border-radius: 8px;
+}
+.loginButton {
+  width: 160px;
+  padding: 10px 25px;
+  background-color: #008d96;
+  color: white;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+::placeholder {
+  color: #939393;
+}
+.acountRegister {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.acountRegister a {
+  text-decoration: none;
+}
+.acountRegister .acount {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #939393;
+}
+.acountRegister .register {
+  color: #008d96;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.footerSection {
+  background-color: rgb(27, 104, 128);
+  width: 100%;
+  padding: 70px 15% 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 100px;
+}
+.logoContainer img {
+  width: 170px;
+  height: 28.84848403930664px;
+}
+.logoContainer {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.logoContainer > p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  gap: 10px;
+}
+.footer li {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.signUp {
+  width: 300px;
+}
+.signUp p {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.signUp p span {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.copyRight {
+  color: #fff;
+  padding: 10px 0;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}

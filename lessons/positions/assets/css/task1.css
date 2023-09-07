@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 100px auto;
+    width: 300px;
+    height: 350px;
+    background: url("../images/71-400x400.jpg") no-repeat center;
+    object-fit: contain;
+    position: relative;
+}
+
+.container::after{
+    content: "";
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+    display: none;
+    
+}
+.container:hover::after{
+    display: block;
+}
