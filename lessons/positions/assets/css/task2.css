@@ -50,10 +50,11 @@ i{
     position: absolute;
     top: 15px;
     right: 20px;
+    color: gainsboro;
 }
 ::placeholder{
     font-size: 1.3rem;
-    color: gray;
+    color: gainsboro;
 }
 button{
     width: 100%;
