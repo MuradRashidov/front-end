@@ -1,4 +1,4 @@
-.head{
+/* .head{
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -47,4 +47,15 @@
     left: 15px;
     
 
+} */
+.sircle{
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+    margin: 200px auto;
+    border-radius: 50%;
+    cursor:grab;
+}
+.sircle:hover{
+    box-shadow: 15px 15px 5px red,-15px -15px 5px rgb(143, 118, 118),25px 25px 5px red;
 }
