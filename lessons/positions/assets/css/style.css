@@ -48,14 +48,27 @@
     
 
 } */
-.sircle{
-    width: 150px;
-    height: 150px;
-    background-color: orangered;
-    margin: 200px auto;
-    border-radius: 50%;
-    cursor:grab;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.sircle:hover{
-    box-shadow: 15px 15px 5px red,-15px -15px 5px rgb(143, 118, 118),25px 25px 5px red;
+.fake {
+  color: black; /* Varsayılan rengi */
+  font-size: 64px;
+  transition: color 0.3s; /* Akıcı bir geçiş efekti ekleyelim */
+  display: none;
+  top: 100px;
+  right: 140px;
+  position: absolute;
+}
+.main:hover {
+  /* box-shadow: 0px 0px 22px 12px black,-10px 10px  12px black; */
+  text-shadow: -15px -20px 1px green;
+}
+.main:hover + .fake {
+  display: block;
+  position: absolute;
+  color: red; /* Üzerine gelindiğinde metin rengini değiştir */
 }

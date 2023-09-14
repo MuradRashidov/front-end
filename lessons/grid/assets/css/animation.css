@@ -1,0 +1,24 @@
+div{
+    width: 10px;
+    height: 100px;
+    background-color: red;
+    /* transition:  1s  ease-in-out;
+    transition-property: width,height;
+    opacity: 0; */
+    animation:  grow 1s infinite linear;
+    animation-direction:alternate-reverse ;
+}
+div:hover{
+    /* opacity: 1;
+    width: 400px;
+    height: 400px;
+    background-color: orange; */
+}
+@keyframes grow{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 100vw;
+    }
+}
